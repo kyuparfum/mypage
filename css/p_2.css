@@ -1,0 +1,73 @@
+main {}
+main #p2_close_btn {display:block;text-align:right;position: relative;
+    top:0; font-size:3rem;
+    right:0;}
+main #p2_close_btn img {
+    width:20px;
+    height:20px;
+    
+}
+main #close_btn img:hover {}
+main .p2_title {}
+main .p2_title h2 {text-align:center; font-size:8rem;}
+main .p2_txt_box {}
+main .p2_txt_box #p2_write {
+    width:100%; margin:70px auto; display:flex; justify-content:center;
+}
+main .p2_txt_box #p2_write li {font-size:8rem;}
+main .p2_txt_box #p2_write li span {font-size:3rem;}
+main .p2_txt_box #p2_write li button {font-size:2rem;}
+main .p2_txt_box .p2_user {}
+main .p2_txt_box .p2_user li {/* background: red; */
+    /* border:1px solid #ddd; */
+    width:600px;
+    margin:10px auto; padding:15px;
+    text-align:left;font-size:3rem;letter-spacing:3.5px;
+}
+main .p2_txt_box .p2_like_box {
+    /* border:2px solid #ddd; */padding:20px; width:300px;text-align:center;
+    margin:80px auto;
+}
+main .p2_txt_box .p2_like_box button {font-size:6rem;}
+
+.p2_input li #p2_user {}
+.p2_input li #p2_txt {}
+main .p2_insert_box li ul li:nth-child(2) {width:100%;}
+main .p2_insert_box li ul li:nth-child(3) {width:100%;}
+main .p2_insert_box li ul li:nth-child(2) input[type=text] {}
+main .p2_insert_box > li > ul > li {padding:10px 20px 10px 0;}
+main .p2_insert_box > li > ul > li:last-child {margin-top:10px;}
+main .p2_insert_box li button {font-size:2rem;}
+/* 댓글입력박스 */
+.p2_input_box {display:flex;
+    width:1200px;
+    margin:0 auto;
+    justify-content:center;margin-bottom:80px;
+}
+.p2_input_box .p2_input {
+    display:flex; flex-flow:column nowrap;
+}
+.p2_input_box .p2_input input[type=text] {
+    font-size:3rem; border:2px solid #999;margin:0 10px;padding:10px 0 10px 10px;
+} 
+.p2_input_box .p2_input input[type=text]:first-child {margin-bottom:20px;}
+.p2_input_box .p2_input input[type=text]:last-child {}
+.p2_input_box .btn {border:2px solid #999;
+    display:flex;align-items:center;}
+.p2_input_box .btn button {
+    font-size:3rem;padding:0 20px;
+}
+.p2_txt_list {
+    border:1px solid #ddd;width:650px; margin:0 auto;
+    /* background-color:aqua; */background-color:#ccc;
+}
+.p2_txt_list .p2_user_box {margin:10px;}
+.p2_txt_list .p2_user_box li {
+    background-color:#fff;/* background-color:coral; */
+    font-size:2rem;padding:10px;
+}
+.p2_txt_list .p2_user_box li:first-child {
+    font-size:4rem;
+}
+.p2_txt_list .p2_user_box li:last-child {}
+.p2_txt_list .p2_user_box li span {font-size:3rem;margin-left:10px;}

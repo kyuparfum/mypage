@@ -1,0 +1,34 @@
+main {width:1200px;margin:0 auto;}
+
+main #p3_close_btn {display:block;text-align:right;position: relative;
+    top:0; font-size:3rem;
+    right:0;}
+main #p3_close_btn img {
+    width:20px;
+    height:20px;
+    
+}
+main h2:nth-of-type(1) {
+    text-align:center; font-size:8rem;margin:20px 0;
+}
+main h2:nth-of-type(2) {text-align:center; font-size:5rem;margin:20px 0;}
+main h2:nth-of-type(2) span {color:hotpink;font-size:5rem;}
+.p3_text {width:80%;}
+.p3_boxs {width:600px; border:1px solid #ddd; padding:20px;margin:0 auto;}
+.p3_boxs .p3_write {display:flex; justify-content:space-between;}
+.p3_boxs .p3_write li {
+    margin-right:10px; margin-bottom:10px;
+    font-size:2rem;
+}
+.p3_boxs .p3_write > li > input[type=text] {font-size: 2rem;}
+.p3_boxs .p3_write li:last-child {margin-right:0;}
+.p3_boxs .p3_write li button {font-size:2rem;}
+.p3_boxs .p3_write p:nth-child(1) {}
+.p3_boxs .p3_write p:nth-child(2) {margin-right:0;}
+.p3_boxs .p3_user {display:flex; flex-flow:row nowrap; align-items:flex-end}
+.p3_boxs .p3_user .p3_text input[type=text] {width:400px;
+    border:1px solid #ddd; margin-bottom:10px; padding:10px 5px; font-size:2rem;
+}
+.p3_boxs .p3_user .p3_text input[type=text]:last-child {margin-bottom:0;}
+.p3_boxs .p3_user p {margin:0 5px;}
+.p3_boxs .p3_user p button {font-size:2rem;}
